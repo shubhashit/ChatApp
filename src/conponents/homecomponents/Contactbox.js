@@ -1,10 +1,11 @@
 import React from 'react'
 import chatlogo from 'C:/Users/hp/Desktop/React/chatapp/src/conponents/homecomponents/pic.png'
+import dp from './profilepics/p1.jpg'
 export default function Contactbox(props) {
   return (
-    <div className={`flex flex-row relative pl-4 mb-2 mt-2 opacity-${props.opacity}`}>
+    <div className={`flex flex-row relative pl-4 mb-2 mt-2 `} style={{opacity:`${props.opacity}`}}>
       <div className='inline-block mr-2'>
-        <img src={chatlogo} alt="" />
+        <img  className='h-8 rounded-full' src={dp} alt="" />
       </div>
       <div className=' w-2/3 text-white text-sm pl-2'>
         <span className='block'><strong> Preview name</strong></span>

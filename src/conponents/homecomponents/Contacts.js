@@ -14,13 +14,13 @@ export default function Contacts() {
                 <button className='bg-blue-500 text-white text-xs w-3/4 h-7 absolute top-16 opa rounded shadow-inherit' >Start a new Chat</button>
             </div>
             <div className=' absolute bottom-0 w-full h-3/4 overflow-hidden'>
-                <Contactbox opacity={100}></Contactbox>
-                <Contactbox opacity={100}></Contactbox>
-                <Contactbox opacity={100}></Contactbox>
-                <Contactbox opacity={100}></Contactbox>
-                <Contactbox opacity={70}></Contactbox>
-                <Contactbox opacity={30}></Contactbox>
-                <Contactbox opacity={10}></Contactbox>
+                <Contactbox opacity={1}></Contactbox>
+                <Contactbox opacity={1}></Contactbox>
+                <Contactbox opacity={1}></Contactbox>
+                <Contactbox opacity={1}></Contactbox>
+                <Contactbox opacity={0.7}></Contactbox>
+                <Contactbox opacity={0.3}></Contactbox>
+                <Contactbox opacity={0.1}></Contactbox>
 
             </div>
         </div>
