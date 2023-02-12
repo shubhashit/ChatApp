@@ -1,5 +1,4 @@
 import React from 'react'
-import s1 from './sharedpics/s1.webp'
 
 export default function Sharedimage(props) {
   return (
