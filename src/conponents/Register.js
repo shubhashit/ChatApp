@@ -1,5 +1,5 @@
 import React, {  useState } from 'react'
-import add from 'C:/Users/hp/Desktop/React/chatapp/src/conponents/avatar.webp'
+import add from './avatar.webp'
 import { createUserWithEmailAndPassword ,updateProfile} from "firebase/auth";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import{auth,storage,db} from './firebase';
