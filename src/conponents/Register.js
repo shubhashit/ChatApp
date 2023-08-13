@@ -24,9 +24,11 @@ function onSubmit(e){
     const password = e.target[2].value;
     const file = e.target[3].files[0];
 
+    console.log('inside');
     createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             // Signed in 
+            console.log('hi');
             user = userCredential.user;
             console.log(user);
             // ...
